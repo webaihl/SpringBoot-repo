@@ -1,0 +1,12 @@
+spring:
+  # 配置数据库连接池
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/basic_project?useUnicode=true&characterEncoding=utf8&allowMultiQueries=true&useSSL=false&serverTimezone=UTC
+    username: root
+    password: 1213
+  ### 配置Redis
+  redis:
+    database: 0
+    host: 192.168.0.235
+    port: 6379
+  #  password: 1470634109
